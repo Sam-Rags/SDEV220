@@ -10,4 +10,24 @@ using division to determine how many hours in a day using floating point
 and integer division.
 '''
 
+#3.1 - Calculation for seconds in an hour
+print(60 * 60)
 
+#3.2 - Previous calculus assigned to variable
+seconds_per_hour = 60 * 60
+
+#3.3 - seconds_per_hour used to calculate seconds in a day
+
+print(seconds_per_hour * 24)
+
+#3.4 - previous calculus assigned to a variable
+
+seconds_per_day = seconds_per_hour * 24
+
+#3.5 - floating point division of seconds_per_day by seconds_per_hour
+
+print(seconds_per_day / seconds_per_hour)
+
+#3.6 - same as 3.5 but with integer division instead
+
+print(seconds_per_day // seconds_per_hour)
